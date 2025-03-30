@@ -1,50 +1,33 @@
 import streamlit as st
 from PIL import Image
-st.set_page_config(page_icon=":page_with_curl:", page_title="Resume | Aakrit")
-
-
-with open("style.css") as f:
-    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
-
-
-
-
-#####################
-# Header 
-
-image = Image.open('aakrit-cv-pic.png')
-st.image(image, width=150)
-
-st.write('''
-# Aakrit Sharma Lamsal, B. Tech.
-#### *Resume* 
-''')
-st.markdown('## Summary', unsafe_allow_html=True)
-st.info('''
-- Driven software engineer with 2+ years of experience leveraging AI and data science expertise to tackle real-world challenges.
-- Successfully spearheaded the development and deployment of NLP models, Retrieval Augmented Generation(RAG) using LLMs.
-- Gained hands-on experience with streamlining CI/CD pipelines and building user-friendly POC dashboards.
--  Skilled in diverse areas like machine learning, NLP, data analysis, SQL, ORMs, and API development.
-''')
-
-#####################
-# Navigation
-
-# st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">', unsafe_allow_html=True)
-#<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+st.set_page_config(page_icon=":page_with_curl:", page_title="Resume | Aakrit", layout='wide')
 
 st.markdown("""
 
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<nav class="navbar fixed-top navbar-expand-md navbar-dark" >
-  <a class="navbar-brand" href="/" target="_blank">Aakrit Sharma Lamsal</a>
+
+
+<nav class="navbar fixed-bottom" >
+ <div class="container-fluid">
+  <!-- CSS-only toggle for mobile -->
+  <input type="checkbox" id="navbarToggle" />
+  <label id="navbarToggleLabel" for="navbarToggle" class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+  </label>
+  
+  <!--
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="mainNav">
-    <ul class="navbar-nav">
+  -->
+  
+  <div class="navbar-collapse" id="mainNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#summary">Summary</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#education">Education</a>
       </li>
@@ -62,8 +45,45 @@ st.markdown("""
       </li>
     </ul>
   </div>
+  <div class="container-fluid nav-brand">
+  <a class="navbar-brand" href="#aakrit-sharma-lamsal" title="Go to Top" >Aakrit Sharma Lamsal</a>
+ </div>
+ </div>
 </nav>
 """, unsafe_allow_html=True)
+
+with open("style.css") as f:
+    st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+
+
+
+#####################
+# Header 
+
+image = Image.open('aakrit-cv-pic.png')
+st.image(image, width=150)
+
+st.write('''
+# Aakrit Sharma Lamsal
+# B. Tech. CSE | Software Engineer | Data Science Enthusiast
+#### *Resume* 
+''')
+st.markdown('## Summary', unsafe_allow_html=True)
+st.info('''
+- Driven software engineer with 2+ years of experience leveraging AI and data science expertise to tackle real-world challenges.
+- Successfully spearheaded the development and deployment of NLP models, Retrieval Augmented Generation(RAG) using LLMs.
+- Gained hands-on experience with streamlining CI/CD pipelines and building user-friendly POC dashboards.
+-  Skilled in diverse areas like machine learning, NLP, data analysis, SQL, ORMs, and API development.
+''')
+
+#####################
+# Navigation
+
+# st.markdown('<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">', unsafe_allow_html=True)
+#<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
 
 
 
