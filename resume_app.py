@@ -120,6 +120,7 @@ def txt4(a, b, c):
   with col3:
     st.markdown(c)
 
+
 #####################
 st.markdown('''
 ## Education
@@ -177,6 +178,10 @@ st.markdown('''
 - Reviewed `115+` research papers to write a detailed review of AI approach to manufacturing process using Directed Energy Deposition 
 ''')
 
+st.markdown('''
+## Tools built
+''')
+
 
 #####################
 st.markdown('''
@@ -199,29 +204,4 @@ st.markdown('''
 txt2('LinkedIn', 'https://www.linkedin.com/in/asl7')
 txt2('GitHub', 'https://github.com/aakrit1155/')
 txt2('ORCID', 'https://orcid.org/0000-0003-3105-8056')
-
-
-
-##################
-## Javascript
-
-from streamlit.components.v1 import html
-
-# st.markdown("""
-#             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-#             """, unsafe_allow_html=True)
-# html('''
-#             <script>
-#                 const navbarEl = document.querySelector("#mainNav");
-#                 window.addEventListener('scroll', ()=> 
-#                 {
-#                     if(window.scrollY >= 25)
-#                     {
-#                         navbarEl.classList.add('navbar-scrolled');
-#                     }else if(window.scrollY< 25)
-#                     {
-#                         navbarEl.classList.remove('navbar-scrolled');
-#                     }
-#                 });
-#             </script>
-#             ''')
+txt2('HuggingFace', 'https://huggingface.co/spaces/aakrit7/')
