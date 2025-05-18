@@ -218,14 +218,44 @@ st.markdown(
 )
 
 tools_built(
-    "Text extraction tool",
-    "Extracts text from scanned media such as image and pdf.",
+    "Text Extraction",
+    "Extracts text from scanned media such as image and pdf. Uses poppler utils and pytesseract to process the user upload and extract the text from image.",
     "https://extract-text.streamlit.app",
 )
 tools_built(
     "Object Detector",
-    "Detect objects in an image and lists them out along with bounding box.",
+    "Detects objects from any image and list them out along with bounding box.",
     "https://huggingface.co/spaces/aakrit7/detect-and-list-objects",
+)
+
+tools_built(
+    "Agentic Chatbot",
+    "Agent based LLM using Langchain and Langgraph capable of scraping news article and assist user. Scraping tool will be called by LLM to fetch news from user given prompt and added to the context.",
+    "HTTP://ai-news-interpreter.streamlit.app",
+)
+
+tools_built(
+    "Resume Analyzer",
+    "Analyses and gives constructive and meaningful feedback to improve the resume for a targeted job position. Uses langchain, pdf2image, and Google Gen AI's multimodal capabilities. The tool is not just for analyzing the content, but also the formatting and overall structure of the resume. Embedded with chat features to discuss on the resume.",
+    "https://resume-analyzer-101.streamlit.app",
+)
+
+tools_built(
+    "LLM Standoff",
+    "Utilizes huggingface models using langchain to compare various LLM responses for a given prompt. Helps to analyze and compare opensource models for our specific usecase. ",
+    "https://huggingface.co/spaces/aakrit7/gradio_model_comparison",
+)
+
+tools_built(
+    "LLM Ayee",
+    "A smart, pirate themed LLM that can assist users with various text based tasks. Built in humor added to the LLM output along with the conversation chain for chaining chat history into the LLM context.",
+    "https://huggingface.co/spaces/aakrit7/pirate-llm-gradio",
+)
+
+tools_built(
+    "Web Portfolio via Streamlit",
+    "A customized UI portfolio made using streamlit. Custom styling and design for an appealing portfolio to showcase various clients about the projects, achievements, and experience.",
+    "https://aakrit-resume.streamlit.app",
 )
 
 #####################
@@ -237,7 +267,7 @@ st.markdown(
 txt3("Programming", "`Python`, `Linux`")
 txt3("Data processing/wrangling", "`SQL`, `pandas`, `numpy`")
 txt3("Data visualization", "`matplotlib`, `seaborn`")
-txt3("Machine Learning", "`scikit-learn`, `scipy`")
+txt3("Machine Learning", "`scikit-learn`, `scipy`, `langchain`, `langgraph`")
 txt3("Deep Learning", "`pytorch`, `TensorFlow`, `keras`")
 txt3("Web development", "`Flask`, `HTML`, `CSS`, `Django`, `FastAPI`")
 txt3("Model deployment", "`streamlit`, `gradio`,`AWS`")
@@ -254,3 +284,4 @@ txt2("LinkedIn", "https://www.linkedin.com/in/asl7")
 txt2("GitHub", "https://github.com/aakrit1155/")
 txt2("ORCID", "https://orcid.org/0000-0003-3105-8056")
 txt2("HuggingFace", "https://huggingface.co/spaces/aakrit7/")
+txt2("Streamlit Profile", "https://share.streamlit.io/user/aakrit1155")
