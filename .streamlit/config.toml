@@ -21,9 +21,3 @@ headless = true
 enableCORS = true
 enableXsrfProtection = true
 # Local binding is configured by run_local.py, not by this cloud-ready file.
-
-[project]
-dependencies = [
-    "streamlit==1.52.0",
-    "Pillow==11.3.0",
-]
