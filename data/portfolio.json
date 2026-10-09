@@ -1,0 +1,524 @@
+{
+  "profile": {
+    "name": "Aakrit Sharma Lamsal",
+    "role": "Software engineering · Applied AI · Data science",
+    "location": "Atlanta, Georgia",
+    "email": "aakritsharma123@gmail.com",
+    "intro": "I build AI-powered applications and the software around them. My work spans language models, retrieval-augmented generation, backend services, and data workflows — from early experiments to production integration.",
+    "about": "I am pursuing an M.S. in Computer Science at Georgia State University, where I also serve as a Graduate Teaching Assistant for Programming and Web Development. I bring more than three years of software engineering experience across Intralinks and MAGNUS Consulting. I enjoy translating research into working systems and collaborating across engineering, data science, and product teams.",
+    "resume": "assets/Aakrit_CV_latest_Jan_2026.pdf",
+    "resume_label": "CV · January 2026",
+    "portrait": "assets/Aakrit_professional_portrait.png",
+    "portrait_caption": "Aakrit Sharma Lamsal",
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/aakrit1155"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/asl7"
+      },
+      {
+        "label": "Hugging Face",
+        "url": "https://huggingface.co/aakrit7"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0003-3105-8056"
+      }
+    ],
+    "highlights": [
+      {
+        "value": "3+ years",
+        "label": "Professional software engineering"
+      },
+      {
+        "value": "18 languages",
+        "label": "Translation service built at Intralinks"
+      },
+      {
+        "value": "Published research",
+        "label": "AI applications in manufacturing"
+      }
+    ],
+    "focus": [
+      {
+        "title": "Applied AI",
+        "text": "LLM applications, RAG pipelines, NLP, and model training and evaluation."
+      },
+      {
+        "title": "Software engineering",
+        "text": "Backend APIs, microservices, document workflows, and production integration."
+      },
+      {
+        "title": "Data & experimentation",
+        "text": "Data preparation, machine learning experiments, and interactive prototypes."
+      }
+    ],
+    "languages": [
+      "English",
+      "Nepali",
+      "Hindi",
+      "German (basic)"
+    ],
+    "interests": [
+      "Reading",
+      "Cycling",
+      "Football",
+      "Sports analytics",
+      "Cooking"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Georgia State University",
+      "role": "Graduate Teaching Assistant",
+      "period": "Current",
+      "location": "Atlanta, Georgia",
+      "summary": "Teaching assistantship for Programming and Web Development.",
+      "highlights": [],
+      "skills": [
+        "Programming",
+        "Web Development"
+      ],
+      "kind": "Academic appointment"
+    },
+    {
+      "company": "MAGNUS Consulting",
+      "role": "Software Engineer",
+      "period": "Mar 2025 – Dec 2025",
+      "location": "Kathmandu, Nepal",
+      "summary": "Internal applications, application security, and event-driven features.",
+      "highlights": [
+        "Led the development and deployment of an internal document management application with SonarQube integration.",
+        "Implemented security features using Spring Security.",
+        "Developed iterative features for a tracker application using events and listeners."
+      ],
+      "skills": [
+        "Java",
+        "Spring Security",
+        "SonarQube",
+        "Event-driven development"
+      ]
+    },
+    {
+      "company": "Intralinks",
+      "role": "Associate Software Engineer · AI-COE",
+      "period": "Jun 2022 – Nov 2024",
+      "location": "Hyderabad, India",
+      "summary": "AI models, services, and the pipelines that connect them to products.",
+      "highlights": [
+        "Developed AI-driven applications in Python and helped integrate AI components into production systems.",
+        "Spearheaded end-to-end RAG development and received the “Invaluable member” award.",
+        "Built model-layer APIs and pipelines in a microservices architecture, including workflows backed by vector databases.",
+        "Reviewed research, experimented with company data, and trained, tested, and validated AI models.",
+        "Created proof-of-concept dashboards with Streamlit, Gradio, and Flask, working with data scientists, engineers, and product managers."
+      ],
+      "skills": [
+        "Python",
+        "NLP",
+        "RAG",
+        "Vector databases",
+        "APIs",
+        "Model evaluation"
+      ]
+    },
+    {
+      "company": "Intralinks",
+      "role": "Software Engineer Intern",
+      "period": "Feb 2022 – Jun 2022",
+      "location": "Hyderabad, India",
+      "summary": "A translation service prototype for a core product.",
+      "highlights": [
+        "Built a translation repository supporting page text and attributes in 18 languages.",
+        "Used React, MongoDB, and Express to handle page data and company-provided translation terms.",
+        "Presented the working solution to development teams and key stakeholders."
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Georgia State University",
+      "degree": "M.S. in Computer Science",
+      "period": "Jan 2026 – Dec 2027 (expected)",
+      "location": "Atlanta, Georgia",
+      "status": "In progress",
+      "details": [
+        "Current GPA: 4.1"
+      ],
+      "coursework": [
+        "Image Processing",
+        "Machine Learning",
+        "Data Science",
+        "Computer Vision",
+        "Advanced Data Mining"
+      ]
+    },
+    {
+      "institution": "Vellore Institute of Technology",
+      "degree": "B.Tech. in Computer Science Engineering",
+      "period": "Jul 2018 – Apr 2022",
+      "location": "Vellore, India",
+      "details": [
+        "CGPA: 8.77",
+        "Completed 184 credits across computer science, computer engineering, and mathematics.",
+        "SAARC scholarship recipient."
+      ]
+    },
+    {
+      "institution": "United Academy Secondary School",
+      "degree": "Higher Secondary Education · Science",
+      "period": "May 2015 – Jun 2017",
+      "location": "Lalitpur, Nepal",
+      "details": [
+        "Overall score: 78.9%",
+        "Coursework included mathematics, physics, chemistry, computer science, and languages."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Python",
+        "JavaScript",
+        "SQL",
+        "Bash",
+        "Java"
+      ]
+    },
+    {
+      "category": "AI & machine learning",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "LangChain",
+        "RAG",
+        "NLP",
+        "Model evaluation"
+      ]
+    },
+    {
+      "category": "Web & APIs",
+      "items": [
+        "FastAPI",
+        "Flask",
+        "Django",
+        "React",
+        "Node.js",
+        "Express",
+        "Spring Boot"
+      ]
+    },
+    {
+      "category": "Data & storage",
+      "items": [
+        "pandas",
+        "NumPy",
+        "PostgreSQL",
+        "MongoDB",
+        "FAISS",
+        "ChromaDB",
+        "pgvector"
+      ]
+    },
+    {
+      "category": "Delivery & infrastructure",
+      "items": [
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Jenkins",
+        "GitHub Actions",
+        "Linux"
+      ]
+    },
+    {
+      "category": "Prototyping & visualization",
+      "items": [
+        "Streamlit",
+        "Gradio",
+        "Matplotlib",
+        "Seaborn",
+        "Power BI"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "resume-analyzer-101",
+      "title": "Resume Analyzer 101",
+      "category": "Applied AI",
+      "kind": "Personal project",
+      "summary": "An interactive application that compares a resume with a target role and provides tailored feedback.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "LangChain",
+        "Gemini"
+      ],
+      "details": [
+        "Accepts a PDF resume and a job description.",
+        "Uses Gemini through LangChain to identify strengths, gaps, and possible improvements.",
+        "Supports follow-up questions about the resume."
+      ],
+      "repository_url": "https://github.com/aakrit1155/resume-analyzer-101",
+      "repository_public": true,
+      "demo_url": "",
+      "image": "",
+      "image_caption": "",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "agentic_chat_assistant",
+      "title": "Agentic Chat Assistant",
+      "category": "Applied AI",
+      "kind": "Personal project",
+      "summary": "An LLM application exploring tool-assisted news retrieval and structured information extraction.",
+      "technologies": [
+        "Python",
+        "LangChain",
+        "Beautiful Soup"
+      ],
+      "details": [
+        "Connects an LLM workflow with article-retrieval tools.",
+        "Extracts article information and presents structured results.",
+        "Explores practical agent workflows around a concrete information-gathering task."
+      ],
+      "repository_url": "https://github.com/aakrit1155/agentic_chat_assistant",
+      "repository_public": true,
+      "demo_url": "",
+      "image": "",
+      "image_caption": "",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "comp-vis-8830-fall-2026-asl",
+      "title": "Computer Vision Lab",
+      "category": "Computer Vision",
+      "kind": "Coursework · GSU · Fall 2026",
+      "summary": "An interactive Streamlit workspace for implementing and inspecting computer vision assignments.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Computer Vision"
+      ],
+      "details": [
+        "Coursework for CSC 8830 at Georgia State University.",
+        "Organizes assignments into separate modules behind a shared interface.",
+        "Provides a browser-based workflow for running and examining assignment outputs."
+      ],
+      "repository_url": "https://github.com/aakrit1155/comp-vis-8830-fall-2026-asl",
+      "repository_public": true,
+      "demo_url": "",
+      "image": "",
+      "image_caption": "",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "id": "streamlit_ocr",
+      "title": "Document Text Extraction",
+      "category": "Computer Vision",
+      "kind": "Personal project",
+      "summary": "A browser-based OCR tool that extracts text from scanned PDFs and image files.",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "Tesseract",
+        "pdf2image"
+      ],
+      "details": [
+        "Supports image files and scanned or image-based PDFs.",
+        "Includes image preprocessing before OCR.",
+        "Uses progress indicators to guide document processing."
+      ],
+      "repository_url": "https://github.com/aakrit1155/streamlit_ocr",
+      "repository_public": true,
+      "demo_url": "https://extract-text.streamlit.app",
+      "image": "",
+      "image_caption": "",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "object-detection-gradio",
+      "title": "Object Detection Explorer",
+      "category": "Computer Vision",
+      "kind": "Personal project",
+      "summary": "An image-based object detector that presents predicted objects with bounding boxes.",
+      "technologies": [
+        "Python",
+        "YOLO",
+        "Gradio"
+      ],
+      "details": [
+        "Runs YOLO object detection on an input image.",
+        "Displays detected objects and their bounding boxes in an interactive interface."
+      ],
+      "repository_url": "https://github.com/aakrit1155/object-detection-gradio",
+      "repository_public": true,
+      "demo_url": "https://huggingface.co/spaces/aakrit7/detect-and-list-objects",
+      "image": "",
+      "image_caption": "",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "classical_text_classification",
+      "title": "News Text Classification",
+      "category": "Machine Learning",
+      "kind": "Personal project",
+      "summary": "A classical machine learning workflow for classifying news into five subject categories.",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "XGBoost",
+        "LightGBM",
+        "CatBoost"
+      ],
+      "details": [
+        "Compares tree-based models including Random Forest, Extra Trees, XGBoost, LightGBM, and CatBoost.",
+        "Classifies politics, sport, technology, entertainment, and business articles.",
+        "Includes training, testing, plotting, and a final model workflow for inference."
+      ],
+      "repository_url": "https://github.com/aakrit1155/classical_text_classification",
+      "repository_public": true,
+      "demo_url": "",
+      "image": "",
+      "image_caption": "",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "gradio-ai-tool",
+      "title": "Open-Source AI Playground",
+      "category": "Applied AI",
+      "kind": "Personal project",
+      "summary": "A Gradio interface for demonstrating and exploring open-source models from Hugging Face.",
+      "technologies": [
+        "Python",
+        "Gradio",
+        "Hugging Face"
+      ],
+      "details": [
+        "Brings model demonstrations into a shared interactive interface.",
+        "Explores accessible UI patterns for trying AI models."
+      ],
+      "repository_url": "https://github.com/aakrit1155/gradio-ai-tool",
+      "repository_public": true,
+      "demo_url": "",
+      "image": "",
+      "image_caption": "",
+      "featured": false,
+      "visible": true
+    },
+    {
+      "id": "Sales_Insights_using_PowerBI",
+      "title": "Sales Insights Dashboard",
+      "category": "Data Analytics",
+      "kind": "Personal project",
+      "summary": "A sales analytics project connecting SQL data preparation with an interactive Power BI dashboard.",
+      "technologies": [
+        "SQL",
+        "MySQL",
+        "Power BI",
+        "Power Query"
+      ],
+      "details": [
+        "Inspects sales data for duplicate rows, invalid quantities, and inconsistent currencies.",
+        "Uses Power Query transformations and table relationships to prepare the data.",
+        "Builds charts, cards, and slicers to communicate sales insights."
+      ],
+      "repository_url": "https://github.com/aakrit1155/Sales_Insights_using_PowerBI",
+      "repository_public": true,
+      "demo_url": "",
+      "image": "",
+      "image_caption": "",
+      "featured": false,
+      "visible": true
+    }
+  ],
+  "publications": [
+    {
+      "title": "Directed Energy Deposition via Artificial Intelligence-Enabled Approaches",
+      "year": "2022",
+      "venue": "Complexity",
+      "role": "Co-author",
+      "summary": "A review of artificial intelligence approaches to directed energy deposition in additive manufacturing.",
+      "contribution": "Reviewed more than 115 research papers as part of the literature review.",
+      "url": "https://doi.org/10.1155/2022/2767371"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "“Invaluable member” award",
+      "organization": "Intralinks",
+      "description": "Recognized for spearheading end-to-end RAG development."
+    },
+    {
+      "title": "SAARC scholarship",
+      "organization": "Vellore Institute of Technology",
+      "description": "Received a $4,000 annual scholarship during undergraduate study."
+    }
+  ],
+  "_notes": {
+    "profile_source": "Supplied January 2026 CV; supplementary details from the supplied older Streamlit app.",
+    "projects_source": "Owner-provided list, public GitHub repository metadata, READMEs and root listings checked on 2026-10-08.",
+    "scope": "Descriptions summarize documented functionality, not independently measured project performance.",
+    "publication_source": "https://onlinelibrary.wiley.com/doi/10.1155/2022/2767371",
+    "education": "Master's degree, dates, GPA of 4.1, coursework, and current teaching assistantship supplied by the owner on 2026-10-08. GPA scale and assistantship start date are not yet supplied. Coursework is listed without assuming completion status.",
+    "demos": "Links carried over from the old app; service availability can change.",
+    "visibility": "Set visible to false to remove a project entirely. Set repository_public to false to hide its source link. Add only information intended for public display.",
+    "certifications": "Course titles and credential URLs supplied by the owner on 2026-10-08. Verification pages could not be retrieved during this update. Issue dates, expiration dates, and course-issuing institutions were not inferred.",
+    "portrait": "Owner-supplied Aakrit_professional_portrait.png, added without editing the image."
+  },
+  "certifications": [
+    {
+      "title": "Deep Learning",
+      "provider": "Coursera",
+      "url": "https://coursera.org/verify/YH8S2JS6GDGK",
+      "issued": "",
+      "expires": ""
+    },
+    {
+      "title": "COVID-19 Data Analysis Using Python",
+      "provider": "Coursera",
+      "url": "https://coursera.org/verify/YPD8YF2N2VRJ",
+      "issued": "",
+      "expires": ""
+    },
+    {
+      "title": "Using Python to Access Web Data",
+      "provider": "Coursera",
+      "url": "https://coursera.org/verify/RARCCD8MUR3M",
+      "issued": "",
+      "expires": ""
+    },
+    {
+      "title": "Data Collection and Processing with Python",
+      "provider": "Coursera",
+      "url": "https://coursera.org/verify/D2PV5QCE8GDF",
+      "issued": "",
+      "expires": ""
+    },
+    {
+      "title": "Physical Science Responsible Conduct of Research",
+      "provider": "CITI Program",
+      "url": "https://www.citiprogram.org/verify/?w9784647a-d417-4e0f-91fc-7f2fba084d44-76567696",
+      "issued": "",
+      "expires": ""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[theme]
+base = "light"
+primaryColor = "#176B60"
+backgroundColor = "#FAFAF7"
+secondaryBackgroundColor = "#F0F2ED"
+textColor = "#182A31"
+font = "sans serif"
+baseRadius = "medium"
+showWidgetBorder = true
+
+[client]
+# Keep Settings available for Streamlit's native light/dark theme selector.
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+runOnSave = true
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+# Local binding is configured by run_local.py, not by this cloud-ready file.

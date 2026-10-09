@@ -1,0 +1,155 @@
+/* Component selectors are verified against Streamlit 1.50.0. */
+.stApp,
+[data-testid="stHeader"],
+[data-testid="stSidebar"],
+[data-testid="stBottom"] {
+    background: var(--pf-bg) !important;
+    color: var(--pf-text) !important;
+}
+
+/* Keep the native navigation and place one accessible switch beside it. */
+.st-key-theme_controls {
+    position: fixed;
+    top: .65rem;
+    right: 3.4rem;
+    z-index: 999990;
+    width: max-content !important;
+    padding: .25rem .65rem;
+    border: 1px solid var(--pf-border);
+    border-radius: 999px;
+    background: var(--pf-bg);
+    color: var(--pf-text);
+}
+.st-key-theme_controls [data-testid="stCheckbox"] { margin: 0; }
+.st-key-theme_controls label { min-height: 1.4rem; }
+.st-key-theme_controls p { font-size: .85rem; }
+[data-testid="stToolbar"] .rc-overflow { padding-right: 11rem; }
+
+.stApp :is(h1,h2,h3,h4,h5,h6),
+.stApp [data-testid="stMarkdownContainer"],
+.stApp [data-testid="stWidgetLabel"],
+.stApp [data-testid="stExpander"] summary,
+.stApp [data-testid="stTopNavLink"],
+.stApp [data-testid="stSidebarNavLink"] {
+    color: var(--pf-text) !important;
+}
+.stApp :is([data-testid="stCaptionContainer"], [data-testid="stImageCaption"]) {
+    color: var(--pf-muted) !important;
+    opacity: 1 !important;
+}
+.stApp [data-testid="stCaptionContainer"] *,
+.stApp [data-testid="stImage"] :is(div, p, span) {
+    color: var(--pf-muted) !important;
+    opacity: 1 !important;
+}
+.stApp [data-testid="stMarkdownContainer"] a,
+.stApp [data-testid="stPageLink"] a {
+    color: var(--pf-accent) !important;
+}
+.stApp :is([data-testid="stTopNavLink"], [data-testid="stSidebarNavLink"], [data-testid="stPageLink"] a) :is(span, p) {
+    color: inherit !important;
+}
+.stApp [data-testid="stImage"] figcaption { color: var(--pf-muted) !important; }
+.stApp [data-testid="stVerticalBlockBorderWrapper"],
+.stApp [data-testid="stLayoutWrapper"] > [data-testid="stVerticalBlock"],
+.stApp [data-testid="stExpander"] details {
+    border-color: var(--pf-border) !important;
+}
+.stApp :is([data-testid="stTopNavLink"], [data-testid="stSidebarNavLink"]):hover,
+.stApp :is([data-testid="stTopNavLink"], [data-testid="stSidebarNavLink"])[aria-current="page"] {
+    background: var(--pf-hover) !important;
+}
+.stApp [data-testid="stHeader"] button,
+.stApp [data-testid="stSidebar"] button {
+    color: var(--pf-text) !important;
+}
+.stApp [data-testid="stHeader"] [data-testid="stIconMaterial"],
+.stApp [data-testid="stHeader"] svg,
+.stApp [data-testid="stSidebar"] [data-testid="stIconMaterial"],
+.stApp [data-testid="stSidebar"] svg {
+    color: var(--pf-text) !important;
+    fill: var(--pf-text) !important;
+}
+
+/* Native buttons, search fields, selects, and their portaled dropdowns. */
+.stApp :is(button[kind="secondary"], a[kind="secondary"], button[kind="tertiary"]) {
+    color: var(--pf-text) !important;
+    background: var(--pf-surface) !important;
+    border-color: var(--pf-border) !important;
+}
+.stApp :is(button[kind="primary"], a[kind="primary"]) {
+    color: var(--pf-accent-text) !important;
+    background: var(--pf-accent) !important;
+    border-color: var(--pf-accent) !important;
+}
+.stApp :is(button[kind="secondary"], a[kind="secondary"], button[kind="tertiary"]):hover {
+    border-color: var(--pf-accent) !important;
+    background: var(--pf-hover) !important;
+}
+.stApp :is(button[kind="primary"], a[kind="primary"]) [data-testid="stMarkdownContainer"] {
+    color: var(--pf-accent-text) !important;
+}
+.stApp [data-baseweb="input"],
+.stApp [data-baseweb="base-input"],
+.stApp [data-baseweb="select"] > div {
+    background: var(--pf-surface) !important;
+    color: var(--pf-text) !important;
+    border-color: var(--pf-border) !important;
+}
+.stApp :is(input, textarea) {
+    color: var(--pf-text) !important;
+    caret-color: var(--pf-accent);
+    -webkit-text-fill-color: var(--pf-text);
+}
+.stApp input::placeholder { -webkit-text-fill-color: var(--pf-muted); opacity: 1; }
+.stApp [data-baseweb="select"] svg { fill: var(--pf-text) !important; }
+.stApp [data-baseweb="select"] :is(div, span) { color: var(--pf-text) !important; }
+.stApp [data-baseweb="tag"] {
+    color: var(--pf-text) !important;
+    background: var(--pf-hover) !important;
+}
+[data-baseweb="popover"] > div,
+[data-baseweb="popover"] ul,
+[data-baseweb="menu"],
+[role="listbox"],
+[role="dialog"] {
+    background: var(--pf-surface) !important;
+    color: var(--pf-text) !important;
+}
+[role="option"], [data-baseweb="menu"] li {
+    background: var(--pf-surface) !important;
+    color: var(--pf-text) !important;
+}
+[role="option"] :is(div, span) { color: inherit !important; }
+[role="option"]:hover, [role="option"][aria-selected="true"],
+[data-baseweb="menu"] li:hover {
+    background: var(--pf-hover) !important;
+}
+.stApp [data-testid="stAlertContainer"] {
+    background: var(--pf-surface) !important;
+    color: var(--pf-text) !important;
+}
+
+/* The label remains clickable; keyboard and screen-reader behavior stays native. */
+.stApp [data-testid="stCheckbox"] label > div:first-child {
+    background: var(--pf-track) !important;
+}
+.stApp [data-testid="stCheckbox"] label:has(input:checked) > div:first-child {
+    background: var(--pf-accent) !important;
+}
+.stApp [data-testid="stCheckbox"] label > div:first-child > div {
+    background: var(--pf-bg) !important;
+}
+.stApp :is(button, a, input):focus-visible,
+.stApp [data-testid="stCheckbox"] label:has(input:focus-visible) {
+    outline: 2px solid var(--pf-accent) !important;
+    outline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+    .st-key-theme_controls { top: .65rem; right: 3.2rem; }
+    /* Avoid clipping the switch behind Streamlit's expanded mobile drawer. */
+    .stApp:has([data-testid="stSidebar"][aria-expanded="true"]) .st-key-theme_controls {
+        visibility: hidden;
+    }
+}
