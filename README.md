@@ -58,7 +58,7 @@ opening or refreshing a different page URL can require selecting the theme again
 | `data/portfolio.json` | Profile, projects, experience, skills, education, research |
 | `style.css` | Small visual layer over native Streamlit components |
 | `.streamlit/config.toml` | Theme and application settings |
-| `assets/Aakrit_CV_latest_Jan_2026.pdf` | Downloadable CV supplied with the project |
+| `assets/Aakrit_CV_Latest.pdf` | Downloadable CV supplied with the project |
 | `assets/Aakrit_professional_portrait.png` | Portrait displayed on the Overview page |
 | `tests/test_portfolio.py` | Content, filtering, and Streamlit smoke tests |
 
