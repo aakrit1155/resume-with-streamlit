@@ -4,8 +4,6 @@ from functools import partial
 
 import streamlit as st
 
-from theme import theme_controls
-
 from portfolio import (
     ROOT,
     background_page,
@@ -16,6 +14,7 @@ from portfolio import (
     overview_page,
     projects_page,
 )
+from theme import theme_controls
 
 st.set_page_config(
     page_title="Aakrit Sharma Lamsal | Software & AI",
@@ -39,12 +38,20 @@ if stylesheet.is_file():
     st.html(stylesheet)
 
 # Native navigation provides real page URLs, keyboard access, and mobile menus.
-projects_route = st.Page(partial(projects_page, content), title="Projects", url_path="projects")
+projects_route = st.Page(
+    partial(projects_page, content), title="Projects", url_path="projects"
+)
 pages = [
-    st.Page(partial(overview_page, content, projects_route), title="Overview", default=True),
+    st.Page(
+        partial(overview_page, content, projects_route), title="Overview", default=True
+    ),
     projects_route,
-    st.Page(partial(experience_page, content), title="Experience", url_path="experience"),
-    st.Page(partial(background_page, content), title="Background", url_path="background"),
+    st.Page(
+        partial(experience_page, content), title="Experience", url_path="experience"
+    ),
+    st.Page(
+        partial(background_page, content), title="Background", url_path="background"
+    ),
     st.Page(partial(contact_page, content), title="Contact", url_path="contact"),
 ]
 page = st.navigation(pages, position="top")
