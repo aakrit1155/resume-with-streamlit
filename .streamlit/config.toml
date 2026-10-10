@@ -1,22 +1,21 @@
 [theme]
-base = "light"
-primaryColor = "#176B60"
-backgroundColor = "#FAFAF7"
-secondaryBackgroundColor = "#F0F2ED"
-textColor = "#182A31"
+base = "dark"
+primaryColor = "#8BD5C5"
+backgroundColor = "#10171C"
+secondaryBackgroundColor = "#1A242B"
+textColor = "#E9F0F3"
 font = "sans serif"
 baseRadius = "medium"
 showWidgetBorder = true
 
 [client]
-# Keep Settings available for Streamlit's native light/dark theme selector.
-toolbarMode = "viewer"
+# Appearance is controlled by the visible navigation-bar toggle.
+toolbarMode = "minimal"
 
 [browser]
 gatherUsageStats = false
 
 [server]
-runOnSave = true
 headless = true
 enableCORS = true
 enableXsrfProtection = true

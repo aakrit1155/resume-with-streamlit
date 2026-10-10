@@ -30,12 +30,12 @@
     ],
     "highlights": [
       {
-        "value": "3+ years",
+        "value": "4 years",
         "label": "Professional software engineering"
       },
       {
-        "value": "18 languages",
-        "label": "Translation service built at Intralinks"
+        "value": "Safeguarded Large Data RAG Application",
+        "label": "AI application built at Intralinks"
       },
       {
         "value": "Published research",
@@ -87,13 +87,13 @@
     {
       "company": "MAGNUS Consulting",
       "role": "Software Engineer",
-      "period": "Mar 2025 – Dec 2025",
+      "period": "Mar 2025 – Nov 2025",
       "location": "Kathmandu, Nepal",
       "summary": "Internal applications, application security, and event-driven features.",
       "highlights": [
         "Led the development and deployment of an internal document management application with SonarQube integration.",
         "Implemented security features using Spring Security.",
-        "Developed iterative features for a tracker application using events and listeners."
+        "Developed iterative features for tracker application using events and listeners to enhance review efficiency."
       ],
       "skills": [
         "Java",
@@ -110,9 +110,9 @@
       "summary": "AI models, services, and the pipelines that connect them to products.",
       "highlights": [
         "Developed AI-driven applications in Python and helped integrate AI components into production systems.",
-        "Spearheaded end-to-end RAG development and received the “Invaluable member” award.",
-        "Built model-layer APIs and pipelines in a microservices architecture, including workflows backed by vector databases.",
-        "Reviewed research, experimented with company data, and trained, tested, and validated AI models.",
+        "Spearheaded end-to-end RAG development and received the “Invaluable member” award for multi-lingual Ranked RAG chat application.",
+        "Built model-layer APIs and pipelines in a microservices architecture, including workflows backed by vector databases for enhancing AI capabilities for users.",
+        "Reviewed research, experimented with company data, and trained, tested, and validated AI models using various SOTA LLM evaluation techniques.",
         "Created proof-of-concept dashboards with Streamlit, Gradio, and Flask, working with data scientists, engineers, and product managers."
       ],
       "skills": [

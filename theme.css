@@ -11,7 +11,8 @@
 .st-key-theme_controls {
     position: fixed;
     top: .65rem;
-    right: 3.4rem;
+    /* Leave room for Community Cloud's Share button and toolbar actions. */
+    right: 12rem;
     z-index: 999990;
     width: max-content !important;
     padding: .25rem .65rem;
@@ -146,8 +147,10 @@
     outline-offset: 3px;
 }
 
-@media (max-width: 640px) {
-    .st-key-theme_controls { top: .65rem; right: 3.2rem; }
+@media (max-width: 900px) {
+    /* Compact screens get a separate row below the native toolbar. */
+    .st-key-theme_controls { top: 3.7rem; right: 1.1rem; }
+    [data-testid="stMainBlockContainer"] { padding-top: 7rem !important; }
     /* Avoid clipping the switch behind Streamlit's expanded mobile drawer. */
     .stApp:has([data-testid="stSidebar"][aria-expanded="true"]) .st-key-theme_controls {
         visibility: hidden;

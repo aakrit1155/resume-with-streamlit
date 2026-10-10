@@ -30,7 +30,7 @@ def theme_controls() -> None:
     # Keep durable state separate from widget state, which pages may clean up.
     if "portfolio_theme" not in st.session_state:
         st.session_state.portfolio_theme = (
-            "dark" if st.query_params.get("theme") == "dark" else "light"
+            "light" if st.query_params.get("theme") == "light" else "dark"
         )
     st.session_state._portfolio_dark_mode = st.session_state.portfolio_theme == "dark"
 
@@ -39,10 +39,7 @@ def theme_controls() -> None:
 
     mode = "dark" if dark else "light"
     # Preserve the choice on refresh without cookies or a JavaScript dependency.
-    if dark:
-        st.query_params["theme"] = "dark"
-    elif not dark and "theme" in st.query_params:
-        del st.query_params["theme"]
+    st.query_params["theme"] = mode
 
     tokens = ";".join(f"--pf-{key}:{value}" for key, value in PALETTES[mode].items())
     st.html(f"<style>:root{{{tokens};color-scheme:{mode};}}</style>")
